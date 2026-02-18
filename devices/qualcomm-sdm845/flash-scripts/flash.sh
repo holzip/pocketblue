@@ -43,6 +43,14 @@ case $choice in
     boot_part=system
     root_part=userdata
     ;;
+5)
+    device=asus-z01r
+    product_name=sdm845
+    has_slots=true
+    esp_part=system_b
+    boot_part=system_a
+    root_part=userdata
+    ;;
 *)
     exit
     ;;
